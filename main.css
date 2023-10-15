@@ -1,0 +1,179 @@
+/* universal style css start  */
+*{margin: 0px;
+  padding: 0px; }  
+/* universal style css End  */
+
+main{height:1200px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;}
+
+
+/* common style start */
+button{width: 120px;
+      height: 48px;
+      border-radius:6px;
+      font-size: 14px;
+      font-weight: 700;
+      font-family:Noto Sans JP;
+      font-weight: 500;
+      font-size: 18px;
+       display: flex;
+       align-items:center;
+      justify-content: center;
+      gap: 9px;}   
+/* common style end */
+
+
+
+
+/* main all style end  */
+/* nav all style start  */
+.nav{height:100%;
+     width:12%;
+     background: #FAFBFD;
+     display: flex;
+     align-items:flex-start;
+     justify-content: center;}
+
+.nav>h3{font-size:17.5px;
+       margin-top:30px;
+       font-family:Arial, Helvetica, sans-serif;}
+.nav>h3>span{color: #F7542E; 
+              font-size:24px;}     
+/* nav all style end  */
+
+/* all button contaner style start  */
+.allButonContent{padding: 20px;
+                 width:85%;
+                 height:100%;
+                 padding:0px;}              
+/*************/
+.rowno0>.column0 > h1{color: #4F4F4F;
+                      margin-bottom: -10px;
+                      font-size:35px;
+                      font-family: Arial, Helvetica, sans-serif;}
+/*#############*/
+/*************/
+.rowno1>.column1> button{background-color:rgba(128, 128, 128, 0.549);
+                         border: none;
+                         box-shadow: 0px 0px 3px .5px gray;}
+p{font-family:Ubuntu Mono;
+                    font-size: 16px;
+                     font-weight: 400;
+                     margin-bottom:8px;}                         
+.rowno1>.column2> button{background-color:rgba(128, 128, 128, 0.755);
+                          border: none;
+                          box-shadow: 0px 0px 3px .5px gray;}
+.rowno1>.column2> button:hover{background-color:#3D5AFE;
+                               color: white;}                          
+                        
+
+/*#############*/
+/*************/
+.rowno2>.column1>button{border: #3D5AFE 3px solid;
+                         color:#3D5AFE;}
+
+.rowno2>.column2>button{border: #3D5AFE 3px solid;
+                         color:#3D5AFE;
+                         background-color: rgba(42, 42, 192, 0.204);}
+.rowno2>.column2> button:hover{background-color:rgba(128, 128, 128, 0.755);
+                              color: white;
+                              border: none;}    
+/*#############*/
+/*************/
+.rowno3>.column1>button{border:none;
+                        background-color: white;
+                         color:#3D5AFE;}
+.rowno3>.column2>button{border:none;
+                         color: #3D5AFE;
+                         background-color: rgba(42, 42, 192, 0.204);}
+.rowno3>.column2> button:hover{background-color:rgba(128, 128, 128, 0.755);
+                              color: white;
+                              border:3px blue solid;}  
+/*#############*/
+/*************/
+.rowno4>.column1>button{background-color: #3D5AFE;
+                       color:#FFF;
+                       border: none;}
+/*#############*/
+/*************/
+.rowno5>.column1>button{background-color: gainsboro;
+                        color: gray;
+                        border: none;}
+.rowno5>.column2>button{background-color: gainsboro;
+                        color: gray;
+                        border: none;
+                         background-color: white;}
+/*#############*/
+/*************/
+.rowno6>.column1>button{background-color:#2962FF;
+                        color: #FFF;
+                        display: flex;
+                        border: none;
+                       align-items: center;
+                       justify-content: center;
+                       width: 120px;}
+.rowno6>.column2 button{background-color:#2962FF;
+                       color: #FFF;
+                       border: none;
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
+                       width: 120px;}
+/*#############*/
+/*************/
+.rowno7>.column1 button{background-color:#2962FF;
+                          color: #FFF;
+                           border: none;}                       
+.rowno7>.column2 button{background-color:#2962FF;
+                          color:#FFF;
+                           border: none;}                       
+.rowno7>.column3 button{background-color:#2962FF;
+                          color:#FFF;
+                           border: none;} 
+ /*#############*/
+/*************/    
+.rowno8>.column1>button{border: none;}                  
+.rowno8>.column2>button{border: none;
+                        background-color:#2962FF;
+                       color:#FFF;}                  
+.rowno8>.column3>button{border: none;
+                        background-color:#455A64;
+                       color:#FFF;}                  
+.rowno8>.column4>button{border: none;
+                        background-color:#D32F2F;
+                       color:#FFF;} 
+ /*#############*/
+/*************/  
+.rowno9>.column1>button{border: none;
+                        background-color:gray;
+                        color:#FFF;}               
+.rowno9>.column1>button:hover{border:3px solid black;
+                             background-color: #0039CB;}                  
+                         
+.rowno9>.column2>button{border: none;
+                        background-color:#0039CB;
+                          color:#FFF;}                                        
+.rowno9>.column3>button{border: none;
+                        background-color:#1C313A;
+                        color:#FFF;}                                        
+.rowno9>.column4>button{border: none;
+                        background-color:#9A0007;
+                        color:#FFF;}  
+ /*#############*/
+/*************/  
+.rowno10>.column1>p{line-height: 30px;
+                    word-spacing:.1rem ;
+                    font-family: Ubuntu Mono;
+                   font-size: 13px; 
+                   color: #828282;
+                 }                                                              
+.rowno11>.column1>p{line-height: 30px;
+                    color: #A9A9A9;
+                     font-size: 14px;
+                   font-family:monospace;
+                   font-weight:500;} 
+.rowno11>.column1>p>span{font-weight:700;}                                                                                
+/* all button contaner style End  */
+
